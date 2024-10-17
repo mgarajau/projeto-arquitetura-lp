@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#menu-superior{
+    background-color: #303030;
+    padding: 75px;
+}
+#titulo-menu-superior{
+    margin-top: 25px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+#sub-titulo-menu-superior{
+    color: #FFFFFF;
+    font-size: small;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+#menu-informativo{
+    column-count: 3;
+    padding: 50px;
+    padding-left: 200px;
+    background-color: #F9F9F9;
+}
+
+#secaofoto{
+    padding: 75px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#titulo-secao-foto{
+    font-weight: 500; 
+    margin-top: 175px;  
+    
+}
+
+#texto-secao-foto{
+    font-weight: 350;
+    
+}
+
+#foto-sala{
+    width: 500px;
+    height: 600px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+#formulario{
+    background-color: #303030;
+    text-align: center;
+}
+
+#titulo-formulario{
+    text-align: center;
+    font-size: 28px;
+    color: #F9F9F9;
+    font-weight: 500;
+    padding-top: 70px;
+    margin: 10px;
+}
+
+input{
+    width: 310px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-top: 25px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+}
+
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    font-size: medium;
+    width: 170px;
+    height: 40px;
+    margin-bottom: 4%;
+    margin-top: 40px;
+}
+
+button:hover{
+    background-color:#ff8c00;
+    color: white;
+    cursor: pointer;
+    transform: translateY(-7px);
+    box-shadow: 0px 3px 7px #d491399c;
+    transition-duration: 0.5s;
+}
+
